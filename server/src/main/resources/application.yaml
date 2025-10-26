@@ -1,4 +1,3 @@
-
 server:
   port: 8081
 
@@ -17,3 +16,7 @@ spring:
       hibernate:
         format_sql: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  banner:
+    location: classpath:banner.txt
+    charset: UTF-8
